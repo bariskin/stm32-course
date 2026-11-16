@@ -1,0 +1,21 @@
+# STM32CubeIDE / Eclipse generated files
+Debug/
+Release/
+.settings/
+.metadata/
+*.launch
+*.elf
+*.hex
+*.bin
+*.list
+*.map
+*.o
+*.d
+*.su
+*.cyclo
+*.coverage
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

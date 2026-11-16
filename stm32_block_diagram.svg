@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#f6f9fc"/>
+<text x="600" y="55" font-family="Arial,sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#16324f">STM32F407 — functional overview</text>
+<rect x="385" y="105" width="430" height="115" rx="18" fill="#dceeff" stroke="#2471a3" stroke-width="3"/>
+<text x="600" y="150" font-family="Arial,sans-serif" font-size="27" font-weight="bold" text-anchor="middle" fill="#16324f">Arm Cortex-M4</text>
+<text x="600" y="185" font-family="Arial,sans-serif" font-size="20" text-anchor="middle" fill="#16324f">CPU core • registers • FPU</text>
+<path d="M600 220 V270" stroke="#526777" stroke-width="5"/>
+<path d="M150 270 H1050" stroke="#526777" stroke-width="5"/>
+<path d="M150 270 V310 M375 270 V310 M600 270 V310 M825 270 V310 M1050 270 V310" stroke="#526777" stroke-width="5"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="55" y="310" width="190" height="105" rx="14" fill="#e8f5e9" stroke="#388e3c" stroke-width="3"/>
+<text x="150" y="353" font-size="25" font-weight="bold" fill="#205b2a">Flash</text><text x="150" y="385" font-size="18" fill="#205b2a">Firmware</text>
+<rect x="280" y="310" width="190" height="105" rx="14" fill="#fff3df" stroke="#d88918" stroke-width="3"/>
+<text x="375" y="353" font-size="25" font-weight="bold" fill="#7c4a00">SRAM</text><text x="375" y="385" font-size="18" fill="#7c4a00">Variables / stacks</text>
+<rect x="505" y="310" width="190" height="105" rx="14" fill="#f3e5f5" stroke="#8e44ad" stroke-width="3"/>
+<text x="600" y="353" font-size="25" font-weight="bold" fill="#5b2c6f">DMA</text><text x="600" y="385" font-size="18" fill="#5b2c6f">Data transfers</text>
+<rect x="730" y="310" width="190" height="105" rx="14" fill="#e0f2f1" stroke="#168a83" stroke-width="3"/>
+<text x="825" y="353" font-size="25" font-weight="bold" fill="#075e57">Timers</text><text x="825" y="385" font-size="18" fill="#075e57">Time / PWM</text>
+<rect x="955" y="310" width="190" height="105" rx="14" fill="#fde8e7" stroke="#c0392b" stroke-width="3"/>
+<text x="1050" y="353" font-size="25" font-weight="bold" fill="#922b21">GPIO</text><text x="1050" y="385" font-size="18" fill="#922b21">Digital I/O</text>
+<rect x="165" y="485" width="270" height="115" rx="14" fill="#e8eef7" stroke="#46658c" stroke-width="3"/>
+<text x="300" y="530" font-size="24" font-weight="bold" fill="#243b55">Communication</text><text x="300" y="565" font-size="20" fill="#243b55">USART • SPI • I²C</text>
+<rect x="465" y="485" width="270" height="115" rx="14" fill="#e8eef7" stroke="#46658c" stroke-width="3"/>
+<text x="600" y="530" font-size="24" font-weight="bold" fill="#243b55">Analog</text><text x="600" y="565" font-size="20" fill="#243b55">ADC • DAC (device dependent)</text>
+<rect x="765" y="485" width="270" height="115" rx="14" fill="#e8eef7" stroke="#46658c" stroke-width="3"/>
+<text x="900" y="530" font-size="24" font-weight="bold" fill="#243b55">Interrupts</text><text x="900" y="565" font-size="20" fill="#243b55">NVIC • exception handling</text>
+<text x="600" y="675" font-family="Arial,sans-serif" font-size="19" text-anchor="middle" fill="#526777">Simplified conceptual diagram — not a bus-level hardware schematic</text>
+</g></svg>
