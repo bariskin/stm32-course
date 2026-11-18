@@ -26,7 +26,7 @@ STM32 — семейство 32-разрядных микроконтролле�
 - **ADC:** преобразование аналогового напряжения в цифровое значение.
 - **DMA:** передача данных между периферией и памятью с меньшим участием CPU.
 
-См. функциональную схему: `../images/stm32_block_diagram.svg`.
+![Функциональная схема STM32F407](../images/stm32_block_diagram.svg)
 
 ### 3. Что происходит при запуске?
 В типичном проекте после сброса процессор получает начальное значение указателя стека и адрес обработчика сброса из таблицы векторов. Startup-код выполняет раннюю инициализацию, подготавливает секции памяти и передаёт управление `main()`. Детали зависят от startup-файла, линкерного скрипта и конфигурации проекта.
@@ -83,7 +83,7 @@ STM32 is a family of 32-bit microcontrollers from STMicroelectronics. A single c
 - **ADC:** converts analog voltage into a digital value.
 - **DMA:** transfers data between peripherals and memory with less CPU involvement.
 
-See `../images/stm32_block_diagram.svg`.
+![STM32F407 block diagram](../images/stm32_block_diagram.svg)
 
 ### 3. What happens at startup?
 In a typical project, after reset the processor obtains the initial stack pointer and reset-handler address from the vector table. Startup code performs early initialization, prepares memory sections, and transfers control to `main()`. Details depend on the startup file, linker script, and project configuration.

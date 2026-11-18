@@ -10,7 +10,7 @@ The course is for C programmers who want to get started with embedded developmen
 
 We start with the Cortex-M4 core, memory, GPIO, and program startup, then move on to interrupts, timers, UART, DMA, ADC, and FreeRTOS.
 
-Full lessons and code: [add the GitHub link after publishing]
+Full lessons and code: https://github.com/bariskin/stm32-course
 
 Feedback and suggestions for future topics are welcome.
 

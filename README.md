@@ -8,7 +8,7 @@
 Открытый учебный курс по разработке встроенных систем на STM32F407. Материалы включают лекции, схемы, примеры HAL C, практические задания и контрольные вопросы.
 
 ### Содержание
-1. [Лекция 1 — Знакомство с STM32](01_introduction.md)
+1. [Лекция 1 — Знакомство с STM32](lectures/01_introduction.md)
 2. [Лекция 2 — Создание проекта STM32CubeIDE и работа с GPIO](lectures/02_project_gpio.md)
 3. [Лекция 3 — Внешние прерывания EXTI и NVIC](lectures/03_exti_nvic.md)
 4. Лекция 4 — Таймеры и PWM (следующая)
@@ -26,7 +26,7 @@
 An open educational course on embedded development with STM32F407. Materials include lessons, diagrams, HAL C examples, practical exercises, and review questions.
 
 ### Contents
-1. [Lesson 1 — Introduction to STM32](01_introduction.md)
+1. [Lesson 1 — Introduction to STM32](lectures/01_introduction.md)
 2. [Lesson 2 — Creating an STM32CubeIDE project and using GPIO](lectures/02_project_gpio.md)
 3. [Lesson 3 — External interrupts EXTI and NVIC](lectures/03_exti_nvic.md)
 4. Lesson 4 — Timers and PWM (next)
