@@ -9,7 +9,7 @@
 
 ### Содержание
 1. [Лекция 1 — Знакомство с STM32](01_introduction.md)
-2. Лекция 2 — Проект в STM32CubeIDE и работа с GPIO (материал готовится к публикации)
+2. [Лекция 2 — Создание проекта STM32CubeIDE и работа с GPIO](lectures/02_project_gpio.md)
 3. [Лекция 3 — Внешние прерывания EXTI и NVIC](lectures/03_exti_nvic.md)
 4. Лекция 4 — Таймеры и PWM (следующая)
 5. Лекция 5 — UART и DMA
@@ -27,7 +27,7 @@ An open educational course on embedded development with STM32F407. Materials inc
 
 ### Contents
 1. [Lesson 1 — Introduction to STM32](01_introduction.md)
-2. Lesson 2 — STM32CubeIDE project and GPIO (prepared for publication)
+2. [Lesson 2 — Creating an STM32CubeIDE project and using GPIO](lectures/02_project_gpio.md)
 3. [Lesson 3 — External interrupts EXTI and NVIC](lectures/03_exti_nvic.md)
 4. Lesson 4 — Timers and PWM (next)
 5. Lesson 5 — UART and DMA
